@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
-import { useDeletePartyMutation, useGetPartyQuery } from "./partySlice";
+import { useDeletePartyMutation, useGetPartyQuery } from "/partySlice";
 
 export default function PartyDetails() {
   const { partyId } = useParams();

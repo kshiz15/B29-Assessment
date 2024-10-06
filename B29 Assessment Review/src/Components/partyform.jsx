@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useAddPartyMutation } from "./partySlice";
+import { useAddPartyMutation } from "/partySlice";
 import { useState } from "react";
 
 export default function PartyForm() {

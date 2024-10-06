@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import { useGetPartiesQuery } from "./partySlice";
+import { useGetPartiesQuery } from "/partySlice";
 
 export default function PartyList() {
   const { data: parties = [] } = useGetPartiesQuery();
